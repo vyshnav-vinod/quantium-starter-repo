@@ -14,6 +14,7 @@ app.layout = html.Div(
     },
     children=[
         html.H1(
+            id="header-text",
             children='Pink Morsel Sales',
             style={
                 'textAlign': 'center',
